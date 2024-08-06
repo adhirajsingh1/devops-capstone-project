@@ -1,6 +1,7 @@
 """
 Account Service
 
+
 This microservice handles the lifecycle of Accounts
 """
 # pylint: disable=unused-import
@@ -12,6 +13,7 @@ from . import app  # Import Flask application
 ############################################################
 # Health Endpoint
 ############################################################
+
 
 @app.route("/health")
 def health():
